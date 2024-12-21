@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4</title>
+    <style>
+       p.solid{border-style:solid;width:200px;height: 100px;color: black; text-align: center; margin: 30px; }
+        p.outline{border-style:solid;width:200px;height: 100px;color: red; text-align: center; margin: 30px; }
+        p.outlineandonly{
+            width: 200px;
+            height: 100px;
+  border: 5px solid blue;
+  outline: red dashed;
+  margin: 30px;
+  padding: 20px;
+  text-align: center;
+}
+
+p.offset{
+    width: 200px;
+    height: 100px;
+  border: 5px solid green;
+  outline: orange solid 5px;
+  padding: 20px;
+  outline-offset: 8px;
+  margin: 30px;
+  text-align: center;
+}
+
+    </style>
+</head>
+<body>
+    <p class="solid">border only</p>
+    <p class="outline">outline only</p>
+    <p class="outlineandonly">outline and only</p>
+    <p class="offset">outllibe and offset</p>
+
+
+</body>
+</html>

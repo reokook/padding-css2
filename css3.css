@@ -1,0 +1,50 @@
+/*css2.html*/
+div{
+    background:white;
+color: black;
+padding: 20px;
+width: 20%;
+height: 100px;
+overflow: visible;
+border: 1px solid #ccc;
+margin: 60px;
+
+}
+
+.div2{
+    background:white;
+color: black;
+padding: 20px;margin: 40px;
+width: 20%;
+height: 100px;
+overflow:hidden;
+border: 1px solid #ccc;
+margin: 60px;
+
+}
+.div3{
+    background:white;
+color: black;
+padding: 20px;margin: 40px;
+width: 20%;
+height: 100px;
+overflow:auto;
+border: 1px solid #ccc;
+margin: 60px;
+
+}
+
+.div4{
+
+background:white;
+color: black;
+padding: 20px;margin: 40px;
+width: 20%;
+height: 100px;
+overflow:scroll;
+border: 1px solid #ccc;
+margin: 60px;
+
+}
+
+
